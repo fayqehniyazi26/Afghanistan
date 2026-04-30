@@ -59,6 +59,36 @@ header {
 }
 
 
+#Contact {
+    margin: 50px 0;
+    text-align: center;
+}
+#Contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+form input, textarea, button {
+    width: 100px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #c49d39;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+form button {
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+form button:hover {
+    background-color: #e5c574;
+}
 .main3 {
     margin-top: 100px;
     width: 100%;
