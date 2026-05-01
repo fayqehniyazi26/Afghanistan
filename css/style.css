@@ -107,13 +107,14 @@ header::before {
     background-color: var(--soft);
     color: var(--dark);
     border: 2px solid transparent;
-    border-radius: 999px;
+    border-radius:0px  20px ;
     padding: 16px 30px;
     font-size: 1rem;
     font-weight: 700;
     text-decoration: none;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.18);
     transition: transform 0.3s ease, background-color 0.3s ease;
+
 }
 .cta-button:hover {
     transform: translateY(-2px);
@@ -281,7 +282,7 @@ section h2 {
 .contact-form button {
     width: fit-content;
     border: none;
-    border-radius: 999px;
+    border-radius: 0px 20px;
     padding: 16px 28px;
     background: var(--gold);
     color: #3e2f16;
@@ -327,48 +328,3 @@ footer p {
     color: #fff;
     transform: translateY(-2px);
 }
-@media (max-width: 980px) {
-    nav {
-        padding: 18px 30px;
-    }
-    .gallery-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-    .about-content,
-    .contact-wrapper {
-        grid-template-columns: 1fr;
-    }
-    section {
-        padding: 60px 30px;
-    }
-}
-@media (max-width: 680px) {
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
-    }
-    .cards,
-    .gallery-grid {
-        gap: 18px;
-    }
-    .card,
-    .gallery-item {
-        width: 100%;
-    }
-    header {
-        min-height: 70vh;
-    }
-    .hero-copy h1 {
-        font-size: 2.5rem;
-    }
-    .cta-button {
-        width: 100%;
-        text-align: center;
-    }
-    section {
-        padding: 50px 20px;
-    }
-}
-
-
